@@ -6,7 +6,8 @@
       "title": "Introdução ao React",
       "content": "O React é uma biblioteca JavaScript para construção de interfaces de usuário...",
       "category": "Desenvolvimento Web",
-      "image": "https://randomuser.me/api/portraits/men/1.jpg"
+      "image": "https://randomuser.me/api/portraits/men/1.jpg",
+      "banner": "https://picsum.photos/seed/react/720/480"
     },
     {
       "author": "Maria Souza",
@@ -14,7 +15,8 @@
       "title": "Boas Práticas com Git",
       "content": "Usar Git de forma eficiente pode acelerar o fluxo de trabalho em equipe...",
       "category": "Controle de Versão",
-      "image": "https://randomuser.me/api/portraits/women/2.jpg"
+      "image": "https://randomuser.me/api/portraits/women/2.jpg",
+      "banner": "https://picsum.photos/seed/git/720/480"
     },
     {
       "author": "Carlos Pereira",
@@ -22,7 +24,8 @@
       "title": "Entendendo API REST",
       "content": "Uma API REST segue princípios de arquitetura que tornam sistemas escaláveis...",
       "category": "Back-end",
-      "image": "https://randomuser.me/api/portraits/men/3.jpg"
+      "image": "https://randomuser.me/api/portraits/men/3.jpg",
+      "banner": "https://picsum.photos/seed/api/720/480"
     },
     {
       "author": "Ana Costa",
@@ -30,7 +33,8 @@
       "title": "O que é TypeScript?",
       "content": "TypeScript é um superset de JavaScript que adiciona tipagem estática...",
       "category": "Linguagens de Programação",
-      "image": "https://randomuser.me/api/portraits/women/4.jpg"
+      "image": "https://randomuser.me/api/portraits/women/4.jpg",
+      "banner": "https://picsum.photos/seed/typescript/720/480"
     },
     {
       "author": "Rafael Almeida",
@@ -38,7 +42,8 @@
       "title": "Começando com Node.js",
       "content": "Node.js permite executar código JavaScript no lado do servidor...",
       "category": "Back-end",
-      "image": "https://randomuser.me/api/portraits/men/5.jpg"
+      "image": "https://randomuser.me/api/portraits/men/5.jpg",
+      "banner": "https://picsum.photos/seed/nodejs/720/480"
     },
     {
       "author": "Fernanda Lima",
@@ -46,7 +51,8 @@
       "title": "Docker para Iniciantes",
       "content": "Docker é uma plataforma para empacotar e executar aplicações em containers...",
       "category": "DevOps",
-      "image": "https://randomuser.me/api/portraits/women/6.jpg"
+      "image": "https://randomuser.me/api/portraits/women/6.jpg",
+      "banner": "https://picsum.photos/seed/docker/720/480"
     },
     {
       "author": "Gabriel Martins",
@@ -54,7 +60,8 @@
       "title": "Como Funciona o HTTP",
       "content": "O protocolo HTTP é a base da comunicação na web...",
       "category": "Protocolos",
-      "image": "https://randomuser.me/api/portraits/men/7.jpg"
+      "image": "https://randomuser.me/api/portraits/men/7.jpg",
+      "banner": "https://picsum.photos/seed/http/720/480"
     },
     {
       "author": "Juliana Ferreira",
@@ -62,7 +69,8 @@
       "title": "SQL vs NoSQL",
       "content": "SQL e NoSQL são abordagens diferentes para armazenamento de dados...",
       "category": "Banco de Dados",
-      "image": "https://randomuser.me/api/portraits/women/8.jpg"
+      "image": "https://randomuser.me/api/portraits/women/8.jpg",
+      "banner": "https://picsum.photos/seed/sql/720/480"
     },
     {
       "author": "Lucas Rocha",
@@ -70,7 +78,8 @@
       "title": "Introdução ao GraphQL",
       "content": "GraphQL é uma linguagem de consulta para APIs que oferece mais flexibilidade...",
       "category": "APIs",
-      "image": "https://randomuser.me/api/portraits/men/9.jpg"
+      "image": "https://randomuser.me/api/portraits/men/9.jpg",
+      "banner": "https://picsum.photos/seed/graphql/720/480"
     },
     {
       "author": "Paula Mendes",
@@ -78,7 +87,8 @@
       "title": "Estilizando com Tailwind CSS",
       "content": "Tailwind CSS é um framework de utilitários para estilização rápida e consistente...",
       "category": "Frontend",
-      "image": "https://randomuser.me/api/portraits/women/10.jpg"
+      "image": "https://randomuser.me/api/portraits/women/10.jpg",
+      "banner": "https://picsum.photos/seed/tailwind/720/480"
     },
     {
       "author": "Diego Santos",
@@ -86,7 +96,8 @@
       "title": "Kubernetes na Prática",
       "content": "Kubernetes é um orquestrador de containers amplamente usado em produção...",
       "category": "DevOps",
-      "image": "https://randomuser.me/api/portraits/men/11.jpg"
+      "image": "https://randomuser.me/api/portraits/men/11.jpg",
+      "banner": "https://picsum.photos/seed/kubernetes/720/480"
     },
     {
       "author": "Beatriz Oliveira",
@@ -94,7 +105,8 @@
       "title": "Segurança no Frontend",
       "content": "Implementar medidas de segurança no frontend é essencial para proteger usuários...",
       "category": "Segurança",
-      "image": "https://randomuser.me/api/portraits/women/12.jpg"
+      "image": "https://randomuser.me/api/portraits/women/12.jpg",
+      "banner": "https://picsum.photos/seed/security/720/480"
     },
     {
       "author": "Rodrigo Gomes",
@@ -102,7 +114,8 @@
       "title": "Testes Automatizados com Jest",
       "content": "O Jest é um framework de testes para JavaScript e TypeScript...",
       "category": "Testes",
-      "image": "https://randomuser.me/api/portraits/men/13.jpg"
+      "image": "https://randomuser.me/api/portraits/men/13.jpg",
+      "banner": "https://picsum.photos/seed/jest/720/480"
     },
     {
       "author": "Camila Barbosa",
@@ -110,7 +123,8 @@
       "title": "Introdução ao Python",
       "content": "Python é uma linguagem de alto nível, fácil de aprender e muito versátil...",
       "category": "Linguagens de Programação",
-      "image": "https://randomuser.me/api/portraits/women/14.jpg"
+      "image": "https://randomuser.me/api/portraits/women/14.jpg",
+      "banner": "https://picsum.photos/seed/python/720/480"
     },
     {
       "author": "Pedro Lima",
@@ -118,7 +132,8 @@
       "title": "Clean Code: Código Limpo",
       "content": "Escrever código limpo facilita manutenção e reduz bugs a longo prazo...",
       "category": "Boas Práticas",
-      "image": "https://randomuser.me/api/portraits/men/15.jpg"
+      "image": "https://randomuser.me/api/portraits/men/15.jpg",
+      "banner": "https://picsum.photos/seed/cleancode/720/480"
     },
     {
       "author": "Larissa Teixeira",
@@ -126,7 +141,8 @@
       "title": "Versionamento Semântico",
       "content": "O versionamento semântico ajuda a manter compatibilidade em projetos de software...",
       "category": "Controle de Versão",
-      "image": "https://randomuser.me/api/portraits/women/16.jpg"
+      "image": "https://randomuser.me/api/portraits/women/16.jpg",
+      "banner": "https://picsum.photos/seed/semver/720/480"
     },
     {
       "author": "Thiago Carvalho",
@@ -134,7 +150,8 @@
       "title": "Desenvolvimento Mobile com Flutter",
       "content": "Flutter permite criar aplicativos nativos para Android e iOS com uma base de código única...",
       "category": "Mobile",
-      "image": "https://randomuser.me/api/portraits/men/17.jpg"
+      "image": "https://randomuser.me/api/portraits/men/17.jpg",
+      "banner": "https://picsum.photos/seed/flutter/720/480"
     },
     {
       "author": "Isabela Nunes",
@@ -142,7 +159,8 @@
       "title": "MongoDB: Introdução",
       "content": "MongoDB é um banco de dados NoSQL orientado a documentos...",
       "category": "Banco de Dados",
-      "image": "https://randomuser.me/api/portraits/women/18.jpg"
+      "image": "https://randomuser.me/api/portraits/women/18.jpg",
+      "banner": "https://picsum.photos/seed/mongodb/720/480"
     },
     {
       "author": "Marcos Ribeiro",
@@ -150,7 +168,8 @@
       "title": "OAuth 2.0 Explicado",
       "content": "OAuth 2.0 é um protocolo para autenticação e autorização segura...",
       "category": "Segurança",
-      "image": "https://randomuser.me/api/portraits/men/19.jpg"
+      "image": "https://randomuser.me/api/portraits/men/19.jpg",
+      "banner": "https://picsum.photos/seed/oauth/720/480"
     },
     {
       "author": "Patrícia Andrade",
@@ -158,7 +177,8 @@
       "title": "Serverless: Vantagens e Desvantagens",
       "content": "O modelo serverless permite focar no código sem gerenciar servidores...",
       "category": "Arquitetura",
-      "image": "https://randomuser.me/api/portraits/women/20.jpg"
+      "image": "https://randomuser.me/api/portraits/women/20.jpg",
+      "banner": "https://picsum.photos/seed/serverless/720/480"
     }
   ]
 }
