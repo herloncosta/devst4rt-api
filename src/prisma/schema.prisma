@@ -1,0 +1,32 @@
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "sqlite"
+    url      = env("DATABASE_URL")
+}
+
+model Author {
+    id           String   @id @default(uuid())
+    name         String
+    surname      String
+    profilePhoto String?
+    posts        Post[]   @relation("AuthorPosts")
+    createdAt    DateTime @default(now())
+    updatedAt    DateTime @updatedAt
+}
+
+model Post {
+    id              String   @id @default(uuid())
+    title           String
+    content         String
+    publicationDate DateTime @default(now())
+    banner          String?
+    authorId        String
+    author          Author   @relation("AuthorPosts", fields: [authorId], references: [id])
+    createdAt       DateTime @default(now())
+    updatedAt       DateTime @updatedAt
+
+    @@index([authorId])
+}
