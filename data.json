@@ -11,6 +11,56 @@
 			"banner": "https://picsum.photos/seed/react/720/480"
 		},
 		{
+			"id": 31,
+			"author": "João Silva",
+			"publicationDate": "2025-03-12",
+			"title": "Gerenciamento de Estado com Redux",
+			"content": "Redux é uma biblioteca para gerenciamento de estado previsível em aplicações JavaScript...",
+			"category": "Frontend",
+			"image": "https://randomuser.me/api/portraits/men/1.jpg",
+			"banner": "https://picsum.photos/seed/redux/720/480"
+		},
+		{
+			"id": 32,
+			"author": "João Silva",
+			"publicationDate": "2025-03-15",
+			"title": "React Hooks na Prática",
+			"content": "Hooks permitem usar estado e outros recursos do React sem escrever classes...",
+			"category": "Frontend",
+			"image": "https://randomuser.me/api/portraits/men/1.jpg",
+			"banner": "https://picsum.photos/seed/hooks/720/480"
+		},
+		{
+			"id": 33,
+			"author": "João Silva",
+			"publicationDate": "2025-03-18",
+			"title": "Testando Componentes React",
+			"content": "Aprenda a testar componentes React com Jest e Testing Library...",
+			"category": "Testes",
+			"image": "https://randomuser.me/api/portraits/men/1.jpg",
+			"banner": "https://picsum.photos/seed/testing/720/480"
+		},
+		{
+			"id": 34,
+			"author": "João Silva",
+			"publicationDate": "2025-03-21",
+			"title": "Otimização de Performance no React",
+			"content": "Técnicas para melhorar a performance de aplicações React...",
+			"category": "Frontend",
+			"image": "https://randomuser.me/api/portraits/men/1.jpg",
+			"banner": "https://picsum.photos/seed/performance/720/480"
+		},
+		{
+			"id": 35,
+			"author": "João Silva",
+			"publicationDate": "2025-03-24",
+			"title": "Next.js: React com SSR",
+			"content": "Next.js traz renderização do lado do servidor para aplicações React...",
+			"category": "Desenvolvimento Web",
+			"image": "https://randomuser.me/api/portraits/men/1.jpg",
+			"banner": "https://picsum.photos/seed/nextjs/720/480"
+		},
+		{
 			"id": 2,
 			"author": "Maria Souza",
 			"publicationDate": "2025-01-05",
@@ -19,6 +69,56 @@
 			"category": "Controle de Versão",
 			"image": "https://randomuser.me/api/portraits/women/2.jpg",
 			"banner": "https://picsum.photos/seed/git/720/480"
+		},
+		{
+			"id": 36,
+			"author": "Maria Souza",
+			"publicationDate": "2025-03-14",
+			"title": "Git Workflows Eficientes",
+			"content": "Conheça diferentes workflows de Git para projetos em equipe...",
+			"category": "Controle de Versão",
+			"image": "https://randomuser.me/api/portraits/women/2.jpg",
+			"banner": "https://picsum.photos/seed/gitflow/720/480"
+		},
+		{
+			"id": 37,
+			"author": "Maria Souza",
+			"publicationDate": "2025-03-17",
+			"title": "Resolvendo Conflitos no Git",
+			"content": "Guia prático para resolver conflitos de merge no Git...",
+			"category": "Controle de Versão",
+			"image": "https://randomuser.me/api/portraits/women/2.jpg",
+			"banner": "https://picsum.photos/seed/conflict/720/480"
+		},
+		{
+			"id": 38,
+			"author": "Maria Souza",
+			"publicationDate": "2025-03-20",
+			"title": "Git Hooks para Automação",
+			"content": "Automatize tarefas com Git Hooks para melhorar seu fluxo de trabalho...",
+			"category": "Controle de Versão",
+			"image": "https://randomuser.me/api/portraits/women/2.jpg",
+			"banner": "https://picsum.photos/seed/hooks/720/480"
+		},
+		{
+			"id": 39,
+			"author": "Maria Souza",
+			"publicationDate": "2025-03-23",
+			"title": "Git Avançado: Rebase e Cherry-pick",
+			"content": "Comandos avançados do Git para um histórico mais limpo...",
+			"category": "Controle de Versão",
+			"image": "https://randomuser.me/api/portraits/women/2.jpg",
+			"banner": "https://picsum.photos/seed/advancedgit/720/480"
+		},
+		{
+			"id": 40,
+			"author": "Maria Souza",
+			"publicationDate": "2025-03-26",
+			"title": "Integrando Git com CI/CD",
+			"content": "Como integrar Git com pipelines de integração contínua...",
+			"category": "DevOps",
+			"image": "https://randomuser.me/api/portraits/women/2.jpg",
+			"banner": "https://picsum.photos/seed/gitcicd/720/480"
 		},
 		{
 			"id": 3,
@@ -31,6 +131,56 @@
 			"banner": "https://picsum.photos/seed/api/720/480"
 		},
 		{
+			"id": 41,
+			"author": "Carlos Pereira",
+			"publicationDate": "2025-03-16",
+			"title": "Design de APIs RESTful",
+			"content": "Princípios para criar APIs RESTful bem projetadas e consistentes...",
+			"category": "Back-end",
+			"image": "https://randomuser.me/api/portraits/men/3.jpg",
+			"banner": "https://picsum.photos/seed/restful/720/480"
+		},
+		{
+			"id": 42,
+			"author": "Carlos Pereira",
+			"publicationDate": "2025-03-19",
+			"title": "Autenticação em APIs",
+			"content": "Métodos de autenticação para proteger suas APIs...",
+			"category": "Segurança",
+			"image": "https://randomuser.me/api/portraits/men/3.jpg",
+			"banner": "https://picsum.photos/seed/auth/720/480"
+		},
+		{
+			"id": 43,
+			"author": "Carlos Pereira",
+			"publicationDate": "2025-03-22",
+			"title": "Versionamento de APIs",
+			"content": "Como versionar APIs sem quebrar compatibilidade...",
+			"category": "Back-end",
+			"image": "https://randomuser.me/api/portraits/men/3.jpg",
+			"banner": "https://picsum.photos/seed/versioning/720/480"
+		},
+		{
+			"id": 44,
+			"author": "Carlos Pereira",
+			"publicationDate": "2025-03-25",
+			"title": "Documentação de APIs com OpenAPI",
+			"content": "Como documentar APIs usando o padrão OpenAPI...",
+			"category": "Back-end",
+			"image": "https://randomuser.me/api/portraits/men/3.jpg",
+			"banner": "https://picsum.photos/seed/openapi/720/480"
+		},
+		{
+			"id": 45,
+			"author": "Carlos Pereira",
+			"publicationDate": "2025-03-28",
+			"title": "Monitoramento de APIs",
+			"content": "Ferramentas e técnicas para monitorar performance de APIs...",
+			"category": "Back-end",
+			"image": "https://randomuser.me/api/portraits/men/3.jpg",
+			"banner": "https://picsum.photos/seed/monitoring/720/480"
+		},
+		{
 			"id": 4,
 			"author": "Ana Costa",
 			"publicationDate": "2025-01-10",
@@ -41,264 +191,34 @@
 			"banner": "https://picsum.photos/seed/typescript/720/480"
 		},
 		{
-			"id": 5,
-			"author": "Rafael Almeida",
-			"publicationDate": "2025-01-12",
-			"title": "Começando com Node.js",
-			"content": "Node.js permite executar código JavaScript no lado do servidor...",
+			"id": 46,
+			"author": "Ana Costa",
+			"publicationDate": "2025-03-13",
+			"title": "Tipos Avançados no TypeScript",
+			"content": "Explore tipos avançados como Generics, Union e Intersection...",
+			"category": "Linguagens de Programação",
+			"image": "https://randomuser.me/api/portraits/women/4.jpg",
+			"banner": "https://picsum.photos/seed/advancedts/720/480"
+		},
+		{
+			"id": 47,
+			"author": "Ana Costa",
+			"publicationDate": "2025-03-16",
+			"title": "TypeScript com React",
+			"content": "Como usar TypeScript eficientemente em projetos React...",
+			"category": "Frontend",
+			"image": "https://randomuser.me/api/portraits/women/4.jpg",
+			"banner": "https://picsum.photos/seed/tsreact/720/480"
+		},
+		{
+			"id": 48,
+			"author": "Ana Costa",
+			"publicationDate": "2025-03-19",
+			"title": "TypeScript no Backend",
+			"content": "Usando TypeScript com Node.js para desenvolvimento backend...",
 			"category": "Back-end",
-			"image": "https://randomuser.me/api/portraits/men/5.jpg",
-			"banner": "https://picsum.photos/seed/nodejs/720/480"
-		},
-		{
-			"id": 6,
-			"author": "Fernanda Lima",
-			"publicationDate": "2025-01-15",
-			"title": "Docker para Iniciantes",
-			"content": "Docker é uma plataforma para empacotar e executar aplicações em containers...",
-			"category": "DevOps",
-			"image": "https://randomuser.me/api/portraits/women/6.jpg",
-			"banner": "https://picsum.photos/seed/docker/720/480"
-		},
-		{
-			"id": 7,
-			"author": "Gabriel Martins",
-			"publicationDate": "2025-01-18",
-			"title": "Como Funciona o HTTP",
-			"content": "O protocolo HTTP é a base da comunicação na web...",
-			"category": "Protocolos",
-			"image": "https://randomuser.me/api/portraits/men/7.jpg",
-			"banner": "https://picsum.photos/seed/http/720/480"
-		},
-		{
-			"id": 8,
-			"author": "Juliana Ferreira",
-			"publicationDate": "2025-01-20",
-			"title": "SQL vs NoSQL",
-			"content": "SQL e NoSQL são abordagens diferentes para armazenamento de dados...",
-			"category": "Banco de Dados",
-			"image": "https://randomuser.me/api/portraits/women/8.jpg",
-			"banner": "https://picsum.photos/seed/sql/720/480"
-		},
-		{
-			"id": 9,
-			"author": "Lucas Rocha",
-			"publicationDate": "2025-01-22",
-			"title": "Introdução ao GraphQL",
-			"content": "GraphQL é uma linguagem de consulta para APIs que oferece mais flexibilidade...",
-			"category": "APIs",
-			"image": "https://randomuser.me/api/portraits/men/9.jpg",
-			"banner": "https://picsum.photos/seed/graphql/720/480"
-		},
-		{
-			"id": 10,
-			"author": "Paula Mendes",
-			"publicationDate": "2025-01-25",
-			"title": "Estilizando com Tailwind CSS",
-			"content": "Tailwind CSS é um framework de utilitários para estilização rápida e consistente...",
-			"category": "Frontend",
-			"image": "https://randomuser.me/api/portraits/women/10.jpg",
-			"banner": "https://picsum.photos/seed/tailwind/720/480"
-		},
-		{
-			"id": 11,
-			"author": "Diego Santos",
-			"publicationDate": "2025-01-28",
-			"title": "Kubernetes na Prática",
-			"content": "Kubernetes é um orquestrador de containers amplamente usado em produção...",
-			"category": "DevOps",
-			"image": "https://randomuser.me/api/portraits/men/11.jpg",
-			"banner": "https://picsum.photos/seed/kubernetes/720/480"
-		},
-		{
-			"id": 12,
-			"author": "Beatriz Oliveira",
-			"publicationDate": "2025-01-30",
-			"title": "Segurança no Frontend",
-			"content": "Implementar medidas de segurança no frontend é essencial para proteger usuários...",
-			"category": "Segurança",
-			"image": "https://randomuser.me/api/portraits/women/12.jpg",
-			"banner": "https://picsum.photos/seed/security/720/480"
-		},
-		{
-			"id": 13,
-			"author": "Rodrigo Gomes",
-			"publicationDate": "2025-02-02",
-			"title": "Testes Automatizados com Jest",
-			"content": "O Jest é um framework de testes para JavaScript e TypeScript...",
-			"category": "Testes",
-			"image": "https://randomuser.me/api/portraits/men/13.jpg",
-			"banner": "https://picsum.photos/seed/jest/720/480"
-		},
-		{
-			"id": 14,
-			"author": "Camila Barbosa",
-			"publicationDate": "2025-02-05",
-			"title": "Introdução ao Python",
-			"content": "Python é uma linguagem de alto nível, fácil de aprender e muito versátil...",
-			"category": "Linguagens de Programação",
-			"image": "https://randomuser.me/api/portraits/women/14.jpg",
-			"banner": "https://picsum.photos/seed/python/720/480"
-		},
-		{
-			"id": 15,
-			"author": "Pedro Lima",
-			"publicationDate": "2025-02-08",
-			"title": "Clean Code: Código Limpo",
-			"content": "Escrever código limpo facilita manutenção e reduz bugs a longo prazo...",
-			"category": "Boas Práticas",
-			"image": "https://randomuser.me/api/portraits/men/15.jpg",
-			"banner": "https://picsum.photos/seed/cleancode/720/480"
-		},
-		{
-			"id": 16,
-			"author": "Larissa Teixeira",
-			"publicationDate": "2025-02-10",
-			"title": "Versionamento Semântico",
-			"content": "O versionamento semântico ajuda a manter compatibilidade em projetos de software...",
-			"category": "Controle de Versão",
-			"image": "https://randomuser.me/api/portraits/women/16.jpg",
-			"banner": "https://picsum.photos/seed/semver/720/480"
-		},
-		{
-			"id": 17,
-			"author": "Thiago Carvalho",
-			"publicationDate": "2025-02-12",
-			"title": "Desenvolvimento Mobile com Flutter",
-			"content": "Flutter permite criar aplicativos nativos para Android e iOS com uma base de código única...",
-			"category": "Mobile",
-			"image": "https://randomuser.me/api/portraits/men/17.jpg",
-			"banner": "https://picsum.photos/seed/flutter/720/480"
-		},
-		{
-			"id": 18,
-			"author": "Isabela Nunes",
-			"publicationDate": "2025-02-14",
-			"title": "MongoDB: Introdução",
-			"content": "MongoDB é um banco de dados NoSQL orientado a documentos...",
-			"category": "Banco de Dados",
-			"image": "https://randomuser.me/api/portraits/women/18.jpg",
-			"banner": "https://picsum.photos/seed/mongodb/720/480"
-		},
-		{
-			"id": 19,
-			"author": "Marcos Ribeiro",
-			"publicationDate": "2025-02-16",
-			"title": "OAuth 2.0 Explicado",
-			"content": "OAuth 2.0 é um protocolo para autenticação e autorização segura...",
-			"category": "Segurança",
-			"image": "https://randomuser.me/api/portraits/men/19.jpg",
-			"banner": "https://picsum.photos/seed/oauth/720/480"
-		},
-		{
-			"id": 20,
-			"author": "Patrícia Andrade",
-			"publicationDate": "2025-02-18",
-			"title": "Serverless: Vantagens e Desvantagens",
-			"content": "O modelo serverless permite focar no código sem gerenciar servidores...",
-			"category": "Arquitetura",
-			"image": "https://randomuser.me/api/portraits/women/20.jpg",
-			"banner": "https://picsum.photos/seed/serverless/720/480"
-		},
-		{
-			"id": 21,
-			"author": "Vinícius Monteiro",
-			"publicationDate": "2025-02-20",
-			"title": "Ciclos de Vida no React",
-			"content": "Os hooks do React permitem controlar o ciclo de vida dos componentes de forma eficiente...",
-			"category": "Frontend",
-			"image": "https://randomuser.me/api/portraits/men/21.jpg",
-			"banner": "https://picsum.photos/seed/hooks/720/480"
-		},
-		{
-			"id": 22,
-			"author": "Aline Figueiredo",
-			"publicationDate": "2025-02-22",
-			"title": "CI/CD com GitHub Actions",
-			"content": "Automatizar deploys com GitHub Actions aumenta a produtividade e reduz erros...",
-			"category": "DevOps",
-			"image": "https://randomuser.me/api/portraits/women/22.jpg",
-			"banner": "https://picsum.photos/seed/githubactions/720/480"
-		},
-		{
-			"id": 23,
-			"author": "Eduardo Ramos",
-			"publicationDate": "2025-02-24",
-			"title": "Introdução ao Redis",
-			"content": "Redis é um banco de dados em memória muito usado para cache e filas...",
-			"category": "Banco de Dados",
-			"image": "https://randomuser.me/api/portraits/men/23.jpg",
-			"banner": "https://picsum.photos/seed/redis/720/480"
-		},
-		{
-			"id": 24,
-			"author": "Sofia Cardoso",
-			"publicationDate": "2025-02-26",
-			"title": "Microserviços na Prática",
-			"content": "A arquitetura de microserviços permite escalabilidade e manutenção mais fáceis...",
-			"category": "Arquitetura",
-			"image": "https://randomuser.me/api/portraits/women/24.jpg",
-			"banner": "https://picsum.photos/seed/microservices/720/480"
-		},
-		{
-			"id": 25,
-			"author": "André Melo",
-			"publicationDate": "2025-02-28",
-			"title": "ElasticSearch para Busca",
-			"content": "ElasticSearch é uma ferramenta poderosa para indexação e busca de dados...",
-			"category": "Banco de Dados",
-			"image": "https://randomuser.me/api/portraits/men/25.jpg",
-			"banner": "https://picsum.photos/seed/elasticsearch/720/480"
-		},
-		{
-			"id": 26,
-			"author": "Luana Moreira",
-			"publicationDate": "2025-03-02",
-			"title": "Design Patterns em JavaScript",
-			"content": "Padrões de projeto ajudam a resolver problemas recorrentes no desenvolvimento...",
-			"category": "Boas Práticas",
-			"image": "https://randomuser.me/api/portraits/women/26.jpg",
-			"banner": "https://picsum.photos/seed/designpatterns/720/480"
-		},
-		{
-			"id": 27,
-			"author": "Felipe Araújo",
-			"publicationDate": "2025-03-04",
-			"title": "Introdução ao Rust",
-			"content": "Rust é uma linguagem focada em segurança e performance...",
-			"category": "Linguagens de Programação",
-			"image": "https://randomuser.me/api/portraits/men/27.jpg",
-			"banner": "https://picsum.photos/seed/rust/720/480"
-		},
-		{
-			"id": 28,
-			"author": "Clara Martins",
-			"publicationDate": "2025-03-06",
-			"title": "Firebase para Aplicações Web",
-			"content": "Firebase oferece autenticação, banco de dados e hospedagem em nuvem...",
-			"category": "Backend",
-			"image": "https://randomuser.me/api/portraits/women/28.jpg",
-			"banner": "https://picsum.photos/seed/firebase/720/480"
-		},
-		{
-			"id": 29,
-			"author": "Ricardo Nascimento",
-			"publicationDate": "2025-03-08",
-			"title": "Introdução ao Ansible",
-			"content": "Ansible é uma ferramenta de automação de infraestrutura baseada em YAML...",
-			"category": "DevOps",
-			"image": "https://randomuser.me/api/portraits/men/29.jpg",
-			"banner": "https://picsum.photos/seed/ansible/720/480"
-		},
-		{
-			"id": 30,
-			"author": "Helena Duarte",
-			"publicationDate": "2025-03-10",
-			"title": "Inteligência Artificial no Dia a Dia",
-			"content": "IA está cada vez mais presente em assistentes virtuais, recomendações e análise de dados...",
-			"category": "Inteligência Artificial",
-			"image": "https://randomuser.me/api/portraits/women/30.jpg",
-			"banner": "https://picsum.photos/seed/ia/720/480"
+			"image": "https://randomuser.me/api/portraits/women/4.jpg",
+			"banner": "https://picsum.photos/seed/tsbackend/720/480"
 		}
 	]
 }
