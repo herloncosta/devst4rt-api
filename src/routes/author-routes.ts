@@ -5,3 +5,4 @@ export const authorRouter = Router();
 const authorController = new AuthorController();
 
 authorRouter.post("/", authorController.createAuthor);
+authorRouter.get("/:id", authorController.getAuthor)

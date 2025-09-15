@@ -25,4 +25,26 @@ export class AuthorController {
 			res.status(400).json(response);
 		}
 	}
+
+	async getAuthor(req: Request, res: Response) {
+		try {
+			const { id } = req.params;
+			if (!id) throw new Error("Author id is required!");
+
+			const author = await authorService.getAuthorById(id);
+			const response: APIResponse = {
+				success: true,
+				data: author,
+			};
+
+			res.status(200).json(response);
+		} catch (error) {
+			const response: APIResponse = {
+				success: false,
+				error: error instanceof Error ? error.message : "Failed to get author!",
+			};
+
+			res.status(400).json(response);
+		}
+	}
 }
