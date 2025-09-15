@@ -1,4 +1,4 @@
-// biome-ignore lint/suspicious/noExplicitAny: 
+// biome-ignore lint/suspicious/noExplicitAny:
 export interface APIResponse<T = any> {
 	success: boolean;
 	data?: T;
@@ -18,4 +18,14 @@ export interface CreatePostInput {
 	category: string;
 	banner?: string;
 	authorId: string;
+}
+
+export interface PaginatedResponse<T> {
+	data: T[];
+	pagination: {
+		page: number;
+		limit: number;
+		total: number;
+		totalPages: number;
+	};
 }

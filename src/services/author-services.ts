@@ -1,5 +1,6 @@
+import type { Author } from "@prisma/client";
 import { prisma } from "../app";
-import type { CreateAuthorInput } from "./../types/index";
+import type { CreateAuthorInput, PaginatedResponse } from "./../types/index";
 
 export class AuthorService {
 	async createAuthor(data: CreateAuthorInput) {
@@ -28,6 +29,38 @@ export class AuthorService {
 			return author;
 		} catch (error) {
 			throw new Error(`Failed to get author: ${error}`);
+		}
+	}
+
+	async getAllAuthors(page = 1, limit = 10) {
+		try {
+			const skip = (page - 1) * limit;
+
+			const [authors, total] = await Promise.all([
+				prisma.author.findMany({
+					skip,
+					take: limit,
+					include: { posts: true },
+					orderBy: {
+						createdAt: "desc",
+					},
+				}),
+				prisma.author.count(),
+			]);
+
+			const totalPages = Math.ceil(total / limit);
+
+			return {
+				data: authors,
+				pagination: {
+					page,
+					limit,
+					total,
+					totalPages,
+				},
+			} as PaginatedResponse<Author>;
+		} catch (error) {
+			throw new Error(`Failed to get all authors: ${error}`);
 		}
 	}
 }

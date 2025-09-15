@@ -47,4 +47,32 @@ export class AuthorController {
 			res.status(400).json(response);
 		}
 	}
+
+	async getAllAuthors(req: Request, res: Response) {
+		try {
+			const page = Number.parseInt(req.query.page as string) || 1;
+			const limit = Number.parseInt(req.query.limit as string) || 10;
+
+			const result = await authorService.getAllAuthors(page, limit);
+
+			const response: APIResponse = {
+				success: true,
+				data: result.data,
+				message: "Authors retrieved successfully",
+			};
+
+			res.status(200).json({
+				...response,
+				pagination: result.pagination,
+			});
+		} catch (error) {
+			const response: APIResponse = {
+				success: false,
+				error:
+					error instanceof Error ? error.message : "Failed to get authors!",
+			};
+
+			res.status(500).json(response);
+		}
+	}
 }
